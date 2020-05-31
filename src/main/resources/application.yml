@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  compression:
+    enabled: true
+    mime-types: application/json,application/xml,text/html,text/xml,text/plain
+
+spring:
+  application:
+    name: 'api-consulta-gov'
+  servlet:
+    multipart:
+      max-request-size: '10MB'
+      max-file-size: '10MB'
